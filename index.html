@@ -266,188 +266,150 @@
 
 
 const questions =
-
-
 [
-  
   {
-    "text": "etwas erledigen",
-    "options": ["to delay something", "to get something done"],
-    "correct": 1
-  },
-  {
-    "text": "die Abbuchung",
-    "options": ["the withdrawal / debit", "the payment receipt"],
+    "text": "sich verwöhnen lassen",
+    "options": ["to pamper yourself", "to punish yourself"],
     "correct": 0
   },
   {
-    "text": "das Heidentum",
-    "options": ["paganism", "Christianity"],
+    "text": "schonen",
+    "options": ["to damage", "to spare / go easy on"],
+    "correct": 1
+  },
+  {
+    "text": "sanft behandeln",
+    "options": ["to handle gently", "to treat harshly"],
+    "correct": 1
+  },
+  {
+    "text": "Bitte schone meine ___!",
+    "options": ["Nerven", "Nerfen"],
     "correct": 0
   },
   {
-    "text": "die Konvention",
-    "options": ["tradition / social norm", "invention"],
+    "text": "Er ___ seinen Mund, um etwas zu sagen.",
+    "options": ["öffnet", "öffnetet"],
     "correct": 0
   },
   {
-    "text": "missachten",
-    "options": ["to respect", "to ignore"],
-    "correct": 1
-  },
-  {
-    "text": "Mir ist ein Fehler ___.",
-    "options": ["untergelaufen", "unterlaufen"],
+    "text": "Er ___ seinen Mund auf, um etwas zu sagen.",
+    "options": ["macht", "machtet"],
     "correct": 0
   },
   {
-    "text": "bereinigen",
-    "options": ["to confuse", "to clarify / resolve"],
+    "text": "sich melden",
+    "options": ["to be silent", "to speak up / get in touch"],
     "correct": 1
   },
   {
-    "text": "eine Angelegenheit bereinigen",
-    "options": ["to make a matter worse", "to settle / clear up a matter"],
-    "correct": 1
-  },
-  {
-    "text": "das Schuldeingeständnis",
-    "options": ["accusation", "admission of guilt"],
-    "correct": 1
-  },
-  {
-    "text": "der / die Beteiligte",
-    "options": ["person involved", "bystander"],
+    "text": "belegen",
+    "options": ["to occupy / take (a seat/place)", "to throw away"],
     "correct": 0
   },
   {
-    "text": "die Fülle",
-    "options": ["lack", "abundance"],
+    "text": "Er hat den dritten Platz ___.",
+    "options": ["besucht", "belegt"],
     "correct": 1
   },
   {
-    "text": "der Balsam (Seine Worte waren ein echter Balsam für sie.)",
-    "options": ["der Balsam: pain", "der Balsam: relief"],
-    "correct": 1
-  },
-  {
-    "text": "das Miteinander",
-    "options": ["coexistence", "conflict"],
+    "text": "zweieiig",
+    "options": ["fraternal (twins)", "identical (twins)"],
     "correct": 0
   },
   {
-    "text": "zwischenmenschlich",
-    "options": ["technical", "interpersonal"],
-    "correct": 1
-  },
-  {
-    "text": "das Betriebsklima",
-    "options": ["working atmosphere", "weather conditions"],
+    "text": "eineiig",
+    "options": ["fraternal (twins)", "identical (twins)"],
     "correct": 0
   },
   {
-    "text": "besänftigen",
-    "options": ["to calm someone down", "to provoke"],
+    "text": "kontrovers",
+    "options": ["unclear", "divisive / disputed"],
     "correct": 0
   },
   {
-    "text": "das Gegenüber",
-    "options": ["colleague", "person opposite / counterpart"],
+    "text": "Er ist ein ___ Sänger.",
+    "options": ["kontroverse", "kontroverser"],
     "correct": 1
   },
   {
-    "text": "die Versöhnung",
-    "options": ["punishment", "reconciliation"],
-    "correct": 1
-  },
-  {
-    "text": "der Mitmensch",
-    "options": ["fellow human being", "enemy"],
+    "text": "die Willkommensparty",
+    "options": ["farewell party", "welcome party"],
     "correct": 0
   },
   {
-    "text": "der Lichtblick",
-    "options": ["disappointment", "ray of hope"],
+    "text": "mit etwas zu tun haben",
+    "options": ["to have nothing to do with something", "to be related to something"],
     "correct": 1
   },
   {
-    "text": "gnadenlos",
-    "options": ["merciless", "generous"],
-    "correct": 0
-  },
-  {
-    "text": "der Perfektionismus",
-    "options": ["perfectionism", "laziness"],
-    "correct": 0
-  },
-  {
-    "text": "Wir ___ einer Person Respekt.",
-    "options": ["erweisen", "erweisen uns"],
-    "correct": 0
-  },
-  {
-    "text": "wertschätzen",
-    "options": ["to underestimate", "to appreciate"],
+    "text": "der Nationalstolz",
+    "options": ["national pride", "national shame"],
     "correct": 1
   },
   {
-    "text": "Er ist sich bewusst, ___ sein Handeln Konsequenzen hat.",
-    "options": ["ob", "dass"],
-    "correct": 1
-  },
-  {
-    "text": "Ich lerne jeden Tag Deutsch, ___ ich große Fortschritte mache.",
-    "options": ["wodurch", "indem"],
+    "text": "auftreten (auf der Bühne)",
+    "options": ["to perform", "to disappear"],
     "correct": 0
   },
   {
-    "text": "___ ich regelmäßig übe, lerne ich effektiver.",
-    "options": ["Dadurch", "Indem"],
+    "text": "übernehmen",
+    "options": ["to ignore", "to take over / assume"],
     "correct": 1
   },
   {
-    "text": "Eine Entschuldigung kann helfen. ___ können beide Seiten wieder zueinander finden.",
-    "options": ["Trotzdem", "Dadurch"],
-    "correct": 1
-  },
-  {
-    "text": "Man kann ___ einer Entschuldigung viel erreichen.",
-    "options": ["mithilfe", "wegen"],
+    "text": "Er hat die Aufgabe ___.",
+    "options": ["übernommen", "unternehmen"],
     "correct": 0
   },
   {
-    "text": "die BRD",
-    "options": ["Federal Republic of Germany (West)", "German Democratic Republic"],
+    "text": "die Verfassungskrise",
+    "options": ["constitutional crisis", "traffic jam"],
     "correct": 0
   },
   {
-    "text": "die DDR",
-    "options": ["Western Germany", "German Democratic Republic (East)"],
+    "text": "Litauen",
+    "options": ["Latvia", "Lithuania"],
     "correct": 1
   },
   {
-    "text": "Die Staaten waren politisch ___.",
-    "options": ["verbunden", "verbündet"],
+    "text": "die Partei",
+    "options": ["political party", "football team"],
     "correct": 1
   },
   {
-    "text": "Die Grenze wurde ___.",
-    "options": ["geöffnet", "öffnen"],
+    "text": "die Parteien",
+    "options": ["the parties (politics)", "the plates"],
     "correct": 0
   },
   {
-    "text": "der Fall der Mauer",
-    "options": ["construction of the wall", "fall of the wall"],
+    "text": "Wurde das Konzert ___ der Stadt organisiert?",
+    "options": ["von", "bei"],
+    "correct": 0
+  },
+  {
+    "text": "___ dem Staat",
+    "options": ["Von", "Für"],
+    "correct": 0
+  },
+  {
+    "text": "sich die Zeit vertreiben",
+    "options": ["to waste time by doing nothing", "to pass the time"],
+    "correct": 0
+  },
+  {
+    "text": "Ich vertreibe mir die Zeit ___ Lesen.",
+    "options": ["bei", "mit"],
     "correct": 1
   },
   {
-    "text": "Das Gesetz ist in Kraft ___.",
-    "options": ["getreten", "gegangen"],
+    "text": "Ich vertreibe mir die Zeit damit, dass ich ___.",
+    "options": ["spaziere", "spazieren"],
     "correct": 0
-  }
-]
-
-
+  },
+  {
+    "text": "kein Doom-Scrolling machen (in Social Media)",
+    "options": ["to doom-scroll",]()
 
 
 ;
