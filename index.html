@@ -266,328 +266,215 @@
 
 
 const questions =
+```json
 [
   {
-    "text": "sich verwöhnen lassen",
-    "options": ["to pamper yourself", "to punish yourself"],
+    "text": "Das Angebot ___ sich wirklich an, weil es günstig ist.",
+    "options": ["bietet", "bietet sich"],
     "correct": 0
   },
   {
-    "text": "schonen",
-    "options": ["to damage", "to spare / go easy on"],
+    "text": "Es ___, heute früher zu gehen, weil morgen viel zu tun ist.",
+    "options": ["liegt fern", "liegt nahe"],
     "correct": 1
   },
   {
-    "text": "sanft behandeln",
-    "options": ["to handle gently", "to treat harshly"],
+    "text": "Meine Wohnung ist ___ von hier; wir brauchen mindestens eine Stunde.",
+    "options": ["um die Ecke", "weit entfernt"],
     "correct": 1
   },
   {
-    "text": "Bitte schone meine ___!",
-    "options": ["Nerven", "Nerfen"],
+    "text": "Ich muss mich kurz im Badezimmer ___, bevor wir losgehen.",
+    "options": ["erfrischen", "einschlafen"],
     "correct": 0
   },
   {
-    "text": "Er ___ seinen Mund, um etwas zu sagen.",
-    "options": ["öffnet", "öffnetet"],
+    "text": "Ich möchte mein Deutsch ___, also wiederhole ich die wichtigsten Wörter.",
+    "options": ["auffrischen", "verlieren"],
     "correct": 0
   },
   {
-    "text": "Er ___ seinen Mund auf, um etwas zu sagen.",
-    "options": ["macht", "machtet"],
+    "text": "Ich schaue ___ gern Sport.",
+    "options": ["Sport", "gern Sport"],
     "correct": 0
   },
   {
-    "text": "sich melden",
-    "options": ["to be silent", "to speak up / get in touch"],
+    "text": "Die lokalen Traditionen sollen ___ werden.",
+    "options": ["abgeschafft", "erhalten"],
     "correct": 1
   },
   {
-    "text": "belegen",
-    "options": ["to occupy / take (a seat/place)", "to throw away"],
+    "text": "etwas behalten",
+    "options": ["to keep (not give away)", "to throw away"],
     "correct": 0
   },
   {
-    "text": "Er hat den dritten Platz ___.",
-    "options": ["besucht", "belegt"],
+    "text": "Im Projekt konnte sie sich besonders ___.",
+    "options": ["blamieren", "hervortun"],
     "correct": 1
   },
   {
-    "text": "zweieiig",
-    "options": ["fraternal (twins)", "identical (twins)"],
-    "correct": 0
-  },
-  {
-    "text": "eineiig",
-    "options": ["fraternal (twins)", "identical (twins)"],
-    "correct": 0
-  },
-  {
-    "text": "kontrovers",
-    "options": ["unclear", "divisive / disputed"],
-    "correct": 0
-  },
-  {
-    "text": "Er ist ein ___ Sänger.",
-    "options": ["kontroverse", "kontroverser"],
+    "text": "Ist es jetzt besser als damals, ___ du angefangen hast?",
+    "options": ["als", "wo"],
     "correct": 1
   },
   {
-    "text": "die Willkommensparty",
-    "options": ["farewell party", "welcome party"],
+    "text": "___ ich angefangen habe, hat sich die Situation sehr verbessert.",
+    "options": ["Seit", "Während"],
     "correct": 0
   },
   {
-    "text": "mit etwas zu tun haben",
-    "options": ["to have nothing to do with something", "to be related to something"],
+    "text": "Einstiegspositionen",
+    "options": ["entry-level positions", "executive positions"],
+    "correct": 0
+  },
+  {
+    "text": "Das Unternehmen musste eine Stelle ___.",
+    "options": ["streichen", "verleihen"],
+    "correct": 0
+  },
+  {
+    "text": "Hast du gehört, dass bei der Washington Post viele Stellen ___ wurden?",
+    "options": ["eingestellt", "gestrichen"],
     "correct": 1
   },
   {
-    "text": "der Nationalstolz",
-    "options": ["national pride", "national shame"],
+    "text": "Ist es zwei Jahre her, seit bei Sony Stellen gestrichen ___?",
+    "options": ["wurden", "worden sind"],
+    "correct": 0
+  },
+  {
+    "text": "Bei Sony konnten einige Stellen durch KI ___ werden.",
+    "options": ["ersetzt", "gehalten"],
     "correct": 1
   },
   {
-    "text": "auftreten (auf der Bühne)",
-    "options": ["to perform", "to disappear"],
-    "correct": 0
-  },
-  {
-    "text": "übernehmen",
-    "options": ["to ignore", "to take over / assume"],
+    "text": "Sonnenuntergang",
+    "options": ["sunrise", "sunset"],
     "correct": 1
   },
   {
-    "text": "Er hat die Aufgabe ___.",
-    "options": ["übernommen", "unternehmen"],
+    "text": "der Arbeitsvertrag",
+    "options": ["employment contract", "rental deposit"],
     "correct": 0
   },
   {
-    "text": "die Verfassungskrise",
-    "options": ["constitutional crisis", "traffic jam"],
-    "correct": 0
-  },
-  {
-    "text": "Litauen",
-    "options": ["Latvia", "Lithuania"],
+    "text": "der Leasing-Vertrag",
+    "options": ["sales receipt", "lease contract"],
     "correct": 1
   },
   {
-    "text": "die Partei",
-    "options": ["political party", "football team"],
+    "text": "unterrepräsentiert",
+    "options": ["overrepresented", "underrepresented"],
+    "correct": 0
+  },
+  {
+    "text": "Boomer-Generation",
+    "options": ["Generation of people born roughly after WWII (older cohort)", "Generation of teenagers today"],
+    "correct": 0
+  },
+  {
+    "text": "Wir müssen die Stelle mit einer Person ___.",
+    "options": ["besetzen", "zerstören"],
+    "correct": 0
+  },
+  {
+    "text": "Die Stelle kann nicht mit jemandem ___ werden, der keine Erfahrung hat.",
+    "options": ["besetzt", "gekauft"],
     "correct": 1
   },
   {
-    "text": "die Parteien",
-    "options": ["the parties (politics)", "the plates"],
-    "correct": 0
-  },
-  {
-    "text": "Wurde das Konzert ___ der Stadt organisiert?",
-    "options": ["von", "bei"],
-    "correct": 0
-  },
-  {
-    "text": "___ dem Staat",
-    "options": ["Von", "Für"],
-    "correct": 0
-  },
-  {
-    "text": "sich die Zeit vertreiben",
-    "options": ["to waste time by doing nothing", "to pass the time"],
-    "correct": 0
-  },
-  {
-    "text": "Ich vertreibe mir die Zeit ___ Lesen.",
-    "options": ["bei", "mit"],
+    "text": "Der Verkehr wurde ___ eingeschränkt.",
+    "options": ["erheblich", "kaum"],
     "correct": 1
   },
   {
-    "text": "Ich vertreibe mir die Zeit damit, dass ich ___.",
-    "options": ["spaziere", "spazieren"],
-    "correct": 0
-  },
- {
-    "text": "Hier kommen noch mal die wichtigen Vokabeln aus der aktuellen Lektion ...",
-    "options": ["Los geht's!", "..."],
-    "correct": 0
-  },
- {
-    "text": "der Mauerfall",
-    "options": ["fall of the Berlin Wall", "construction of the wall"],
+    "text": "frisch aus dem Studium",
+    "options": ["fresh out of university", "about to retire"],
     "correct": 0
   },
   {
-    "text": "der Mauerfall",
-    "options": ["fall of the Berlin Wall", "construction of the wall"],
+    "text": "Ich lerne Deutsch, ___ ich YouTube schaue.",
+    "options": ["indem", "obwohl"],
     "correct": 0
   },
   {
-    "text": "die Teilung",
-    "options": ["unity", "division"],
+    "text": "Man ist insofern benachteiligt, ___ man eine Sprache lernen muss.",
+    "options": ["als dass", "damit"],
     "correct": 1
   },
   {
-    "text": "die Wiedervereinigung",
-    "options": ["separation", "reunification"],
+    "text": "Inwiefern macht es Sinn, sich neben der Arbeit weiterzubilden?",
+    "options": ["To what extent does it make sense to keep studying while working?", "When does it make sense to quit your job?"],
+    "correct": 0
+  },
+  {
+    "text": "Es macht insofern Sinn, ___ neues Wissen beruflich weiterbringt.",
+    "options": ["dass", "weil"],
+    "correct": 0
+  },
+  {
+    "text": "In welcher Hinsicht?",
+    "options": ["Inwiefern?", "Inzwischen?"],
+    "correct": 0
+  },
+  {
+    "text": "Boomer sind insofern erheblich benachteiligt, ___ niemand sie einstellen will.",
+    "options": ["weil", "als dass"],
     "correct": 1
   },
   {
-    "text": "der / die Verbündete",
-    "options": ["ally", "enemy"],
+    "text": "Ich ___ etwas tun, aber ich habe gerade keine Zeit.",
+    "options": ["würde", "werde"],
     "correct": 0
   },
   {
-    "text": "sich zuwenden",
-    "options": ["to turn away from", "to turn toward"],
+    "text": "Ich ___ glücklich, wenn ich mehr Freizeit hätte.",
+    "options": ["bin", "wäre"],
     "correct": 1
   },
   {
-    "text": "der Ostblock",
-    "options": ["Eastern Bloc", "European Union"],
-    "correct": 0
-  },
-  {
-    "text": "der Lebensstandard",
-    "options": ["quality of life / living standard", "job contract"],
-    "correct": 0
-  },
-  {
-    "text": "innerdeutsch",
-    "options": ["international", "within Germany"],
+    "text": "Ich ___ mehr Geld, wenn ich den Job gewechselt hätte.",
+    "options": ["hatte", "hätte"],
     "correct": 1
   },
   {
-    "text": "der Stacheldraht",
-    "options": ["barbed wire", "electric cable"],
+    "text": "Wenn ich nicht betrunken ___, hätte ich eine bessere Zeit gehabt.",
+    "options": ["gewesen wäre", "war"],
     "correct": 0
   },
   {
-    "text": "die Mine",
-    "options": ["helmet", "land mine"],
+    "text": "Ich hätte gegessen, wenn ich Zeit ___ hätte.",
+    "options": ["gehabt", "haben"],
+    "correct": 0
+  },
+  {
+    "text": "Ich wäre geflogen, wenn ich die Möglichkeit ___ hätte.",
+    "options": ["gehabt", "haben"],
+    "correct": 0
+  },
+  {
+    "text": "verschlafen",
+    "options": ["to oversleep and miss an appointment", "to take a short nap on purpose"],
     "correct": 1
   },
   {
-    "text": "abriegeln",
-    "options": ["to seal off", "to decorate"],
+    "text": "Ich hätte zur Arbeit fahren müssen, wenn ich nicht die S-Bahn ___ nehmen können.",
+    "options": ["hätte", "würde"],
     "correct": 0
   },
   {
-    "text": "die Lebensgefahr",
-    "options": ["danger to life", "daily routine"],
-    "correct": 0
-  },
-  {
-    "text": "die Auswanderung",
-    "options": ["immigration", "emigration"],
+    "text": "Ich hätte am Unterricht übers Handy teilnehmen müssen, wenn ich nicht über den Laptop hätte teilnehmen ___.",
+    "options": ["können", "könnte"],
     "correct": 1
   },
   {
-    "text": "konkurrierend",
-    "options": ["cooperating", "competing"],
+    "text": "Was hättest du werden wollen, wenn du nicht Personalchefin ___ werden können?",
+    "options": ["hättest", "würdest"],
     "correct": 1
-  },
-  {
-    "text": "andauernd",
-    "options": ["temporary", "ongoing"],
-    "correct": 1
-  },
-  {
-    "text": "der Wettkampf",
-    "options": ["competition", "agreement"],
-    "correct": 0
-  },
-  {
-    "text": "der Zusammenbruch",
-    "options": ["collapse", "growth"],
-    "correct": 0
-  },
-  {
-    "text": "die Bezeichnung",
-    "options": ["description / term", "command"],
-    "correct": 0
-  },
-  {
-    "text": "teilweise",
-    "options": ["partially", "completely"],
-    "correct": 0
-  },
-  {
-    "text": "das Grundrecht",
-    "options": ["basic right", "basic duty"],
-    "correct": 0
-  },
-  {
-    "text": "verabschieden",
-    "options": ["to greet", "to say goodbye / pass (a law)"],
-    "correct": 1
-  },
-  {
-    "text": "die Ausreise",
-    "options": ["entry into a country", "departure from a country"],
-    "correct": 1
-  },
-  {
-    "text": "verkünden",
-    "options": ["to announce officially", "to hide"],
-    "correct": 0
-  },
-  {
-    "text": "die Grenze zu + Dat.",
-    "options": ["the border to", "the center of"],
-    "correct": 0
-  },
-  {
-    "text": "einreißen",
-    "options": ["to tear down", "to build up"],
-    "correct": 0
-  },
-  {
-    "text": "die Wende",
-    "options": ["political turning point", "weather change"],
-    "correct": 0
-  },
-  {
-    "text": "der Wandel",
-    "options": ["continuity", "change / transformation"],
-    "correct": 1
-  },
-  {
-    "text": "vereinigen",
-    "options": ["to divide", "to unite"],
-    "correct": 1
-  },
-  {
-    "text": "spürbar",
-    "options": ["noticeable", "imaginary"],
-    "correct": 0
-  },
-  {
-    "text": "im Hinblick auf + Akk.",
-    "options": ["with regard to", "instead of"],
-    "correct": 0
-  },
-  {
-    "text": "der Wohlstand",
-    "options": ["poverty", "prosperity"],
-    "correct": 1
-  },
-  {
-    "text": "der Zeitraum",
-    "options": ["period of time", "location"],
-    "correct": 0
-  },
-  {
-    "text": "abfällig",
-    "options": ["neutral", "derogatory"],
-    "correct": 1
-  },
-  {
-    "text": "die Selbstbezeichnung",
-    "options": ["self-designation", "foreign label"],
-    "correct": 0
   }
 ]
+```
 
 
 
