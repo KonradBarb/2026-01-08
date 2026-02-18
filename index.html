@@ -266,215 +266,148 @@
 
 
 const questions =
-```json
 [
   {
-    "text": "Das Angebot ___ sich wirklich an, weil es günstig ist.",
-    "options": ["bietet", "bietet sich"],
+    "text": "Die Tickets sind extrem ___.",
+    "options": ["überteuert", "kostenlos"],
     "correct": 0
   },
   {
-    "text": "Es ___, heute früher zu gehen, weil morgen viel zu tun ist.",
-    "options": ["liegt fern", "liegt nahe"],
+    "text": "Der ___ Preis war deutlich niedriger.",
+    "options": ["jetzige", "ursprüngliche"],
     "correct": 1
   },
   {
-    "text": "Meine Wohnung ist ___ von hier; wir brauchen mindestens eine Stunde.",
-    "options": ["um die Ecke", "weit entfernt"],
+    "text": "Die Tickets liegen nur 10 % ___ dem ursprünglichen Preis.",
+    "options": ["unter", "über"],
     "correct": 1
   },
   {
-    "text": "Ich muss mich kurz im Badezimmer ___, bevor wir losgehen.",
-    "options": ["erfrischen", "einschlafen"],
+    "text": "Eiskunstlauf ist ein sehr ___ Sport.",
+    "options": ["eleganter", "gefährlicher"],
     "correct": 0
   },
   {
-    "text": "Ich möchte mein Deutsch ___, also wiederhole ich die wichtigsten Wörter.",
-    "options": ["auffrischen", "verlieren"],
+    "text": "Deutschland spielt ___ Halbfinale gegen die USA.",
+    "options": ["im", "ins"],
     "correct": 0
   },
   {
-    "text": "Ich schaue ___ gern Sport.",
-    "options": ["sehr", "lieber"],
+    "text": "Das Team ist bereits ___ Viertelfinale ausgeschieden.",
+    "options": ["im", "ins"],
     "correct": 0
   },
   {
-    "text": "Die lokalen Traditionen sollen ___ werden.",
-    "options": ["abgeschafft", "erhalten"],
+    "text": "Als Kind habe ich drei Jahre Eiskunstlauf ___.",
+    "options": ["gemacht", "betrieben"],
     "correct": 1
   },
   {
-    "text": "etwas behalten",
-    "options": ["to keep (not give away)", "to throw away"],
+    "text": "Ich ___ einem Sport nach, um fit zu bleiben.",
+    "options": ["gehe", "mache"],
     "correct": 0
   },
   {
-    "text": "Im Projekt konnte sie sich besonders ___.",
-    "options": ["blamieren", "hervortun"],
+    "text": "Das ist nicht mein Problem, das ist deine ___.",
+    "options": ["Ding", "Sache"],
     "correct": 1
   },
   {
-    "text": "Ist es jetzt besser als damals, ___ du angefangen hast?",
-    "options": ["als", "wo"],
+    "text": "Die einzige Sache, ___ ich Interesse habe, ist Musik.",
+    "options": ["an der", "für die"],
     "correct": 1
   },
   {
-    "text": "___ ich angefangen habe, hat sich die Situation sehr verbessert.",
-    "options": ["Seit", "Während"],
+    "text": "Die einzige Sache, für die ich mich ___, ist Programmierung.",
+    "options": ["interessiere", "interessant finde"],
     "correct": 0
   },
   {
-    "text": "Einstiegspositionen",
-    "options": ["entry-level positions", "executive positions"],
+    "text": "Bist du als Kind oft ___ Eisbahn gegangen?",
+    "options": ["zur", "zu der"],
     "correct": 0
   },
   {
-    "text": "Das Unternehmen musste eine Stelle ___.",
-    "options": ["streichen", "verleihen"],
+    "text": "Ohne mein Interesse an Technik hätte ich das nicht ___ können.",
+    "options": ["lernen", "gelernt"],
     "correct": 0
   },
   {
-    "text": "Hast du gehört, dass bei der Washington Post viele Stellen ___ wurden?",
-    "options": ["eingestellt", "gestrichen"],
-    "correct": 1
-  },
-  {
-    "text": "Ist es zwei Jahre her, seit bei Sony Stellen gestrichen ___?",
-    "options": ["wurden", "worden sind"],
-    "correct": 0
-  },
-  {
-    "text": "Bei Sony konnten einige Stellen durch KI ___ werden.",
-    "options": ["ersetzt", "gehalten"],
-    "correct": 1
-  },
-  {
-    "text": "Sonnenuntergang",
-    "options": ["sunrise", "sunset"],
-    "correct": 1
-  },
-  {
-    "text": "der Arbeitsvertrag",
-    "options": ["employment contract", "rental deposit"],
-    "correct": 0
-  },
-  {
-    "text": "der Leasing-Vertrag",
-    "options": ["sales receipt", "lease contract"],
-    "correct": 1
-  },
-  {
-    "text": "unterrepräsentiert",
-    "options": ["overrepresented", "underrepresented"],
-    "correct": 0
-  },
-  {
-    "text": "Boomer-Generation",
-    "options": ["Generation of people born roughly after WWII (older cohort)", "Generation of teenagers today"],
-    "correct": 0
-  },
-  {
-    "text": "Wir müssen die Stelle mit einer Person ___.",
-    "options": ["besetzen", "zerstören"],
-    "correct": 0
-  },
-  {
-    "text": "Die Stelle kann nicht mit jemandem ___ werden, der keine Erfahrung hat.",
-    "options": ["besetzt", "gekauft"],
-    "correct": 1
-  },
-  {
-    "text": "Der Verkehr wurde ___ eingeschränkt.",
-    "options": ["erheblich", "kaum"],
-    "correct": 1
-  },
-  {
-    "text": "frisch aus dem Studium",
-    "options": ["fresh out of university", "about to retire"],
-    "correct": 0
-  },
-  {
-    "text": "Ich lerne Deutsch, ___ ich YouTube schaue.",
-    "options": ["indem", "obwohl"],
-    "correct": 0
-  },
-  {
-    "text": "Man ist insofern benachteiligt, ___ man eine Sprache lernen muss.",
-    "options": ["als dass", "damit"],
-    "correct": 1
-  },
-  {
-    "text": "Inwiefern macht es Sinn, sich neben der Arbeit weiterzubilden?",
-    "options": ["To what extent does it make sense to keep studying while working?", "When does it make sense to quit your job?"],
-    "correct": 0
-  },
-  {
-    "text": "Es macht insofern Sinn, ___ neues Wissen beruflich weiterbringt.",
-    "options": ["dass", "weil"],
-    "correct": 0
-  },
-  {
-    "text": "In welcher Hinsicht?",
-    "options": ["Inwiefern?", "Inzwischen?"],
-    "correct": 0
-  },
-  {
-    "text": "Boomer sind insofern erheblich benachteiligt, ___ niemand sie einstellen will.",
-    "options": ["weil", "als dass"],
-    "correct": 1
-  },
-  {
-    "text": "Ich ___ etwas tun, aber ich habe gerade keine Zeit.",
-    "options": ["würde", "werde"],
-    "correct": 0
-  },
-  {
-    "text": "Ich ___ glücklich, wenn ich mehr Freizeit hätte.",
+    "text": "Ich ___ ein Mauerwächter geworden.",
     "options": ["bin", "wäre"],
     "correct": 1
   },
   {
-    "text": "Ich ___ mehr Geld, wenn ich den Job gewechselt hätte.",
-    "options": ["hatte", "hätte"],
+    "text": "Der Umzug ___ Deutschland war nicht einfach.",
+    "options": ["nach", "in"],
+    "correct": 0
+  },
+  {
+    "text": "Die Geburt ___ Kindes war ein besonderer Moment.",
+    "options": ["meines", "meiner"],
     "correct": 1
   },
   {
-    "text": "Wenn ich nicht betrunken ___, hätte ich eine bessere Zeit gehabt.",
-    "options": ["gewesen wäre", "war"],
-    "correct": 0
-  },
-  {
-    "text": "Ich hätte gegessen, wenn ich Zeit ___ hätte.",
-    "options": ["gehabt", "haben"],
-    "correct": 0
-  },
-  {
-    "text": "Ich wäre geflogen, wenn ich die Möglichkeit ___ hätte.",
-    "options": ["gehabt", "haben"],
-    "correct": 0
-  },
-  {
-    "text": "verschlafen",
-    "options": ["to oversleep and miss an appointment", "to take a short nap on purpose"],
+    "text": "Das Gegenteil ___ Aufbau ist der Zusammenbruch.",
+    "options": ["vom", "von"],
     "correct": 1
   },
   {
-    "text": "Ich hätte zur Arbeit fahren müssen, wenn ich nicht die S-Bahn ___ nehmen können.",
+    "text": "Diese Nachricht hätte mein Leben völlig ___ den Kopf gestellt.",
+    "options": ["auf", "über"],
+    "correct": 0
+  },
+  {
+    "text": "Der ___ der Demokratie dauerte viele Jahre.",
+    "options": ["Aufbau", "Abbau"],
+    "correct": 0
+  },
+  {
+    "text": "Wenn ich mehr Zeit hätte, ___ ich mehr lesen.",
+    "options": ["würde", "hätte"],
+    "correct": 0
+  },
+  {
+    "text": "Wenn ich gestern Zeit ___, wäre ich gekommen.",
+    "options": ["hätte", "habe"],
+    "correct": 1
+  },
+  {
+    "text": "Ich habe verschlafen und deshalb den Termin ___.",
+    "options": ["verpasst", "verliert"],
+    "correct": 0
+  },
+  {
+    "text": "Er ___ die Tür einschlagen können.",
     "options": ["hätte", "würde"],
-    "correct": 0
-  },
-  {
-    "text": "Ich hätte am Unterricht übers Handy teilnehmen müssen, wenn ich nicht über den Laptop hätte teilnehmen ___.",
-    "options": ["können", "könnte"],
     "correct": 1
   },
   {
-    "text": "Was hättest du werden wollen, wenn du nicht Personalchefin ___ werden können?",
-    "options": ["hättest", "würdest"],
+    "text": "Was ___ du gemacht, wenn du nicht gearbeitet hättest?",
+    "options": ["würdest", "hättest"],
+    "correct": 1
+  },
+  {
+    "text": "Ich hätte mehr lernen sollen, ___ ich die Prüfung bestanden hätte.",
+    "options": ["damit", "weil"],
+    "correct": 0
+  },
+  {
+    "text": "Warum haben die Kinder ihr nichts vom Mauerfall ___?",
+    "options": ["erzählt", "gesagt"],
+    "correct": 0
+  },
+  {
+    "text": "Ich hätte das tun müssen, ___ es meine Pflicht war.",
+    "options": ["weil", "damit"],
+    "correct": 0
+  },
+  {
+    "text": "Er hätte kommen ___, wenn er Zeit gehabt hätte.",
+    "options": ["müssen", "können"],
     "correct": 1
   }
 ]
-```
 
 
 
